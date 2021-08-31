@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    text-align: left;
+    padding: 0;
+}
+.container-fluid{
+    padding: 4rem 3rem;
+    background-color: #d5dee6;
+    border-radius: 0.5rem;
+   
+}
+.jumbotron{
+    padding: 5rem 3em;
+    margin-bottom: 2rem;
+    background-color: #d5dee6;
+    border-radius: 0.3rem;
+}
+////////////////////////////
+//1. Patrón de colores
+////////////////////////////
+
+$primary: #d63384;
+$danger: #fd7e14;
+$secondary: #29ecb2;
+$success:#e6e343;
+$warning:#3f0963;
+$info:#f00d46;
+$light:#f3b9fe;
+$dark:#4faaaa;
+
+
+////////////////////////////////////////////
+//2. Modificación de variables de Bootstrap
+////////////////////////////////////////////
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger,
+  "secondary":$secondary,
+  "success":$success,
+  "warning":$warning,
+  "info":$info,
+  "light":$light,
+  "dark":$dark,
+
+
+);
+
+$enable-shadows:true;
+$enable-gradients:true;
+$btn-border-radius:1rem;
+$btn-padding-y:1.5rem;
+$btn-padding-x: 1rem;
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+
+////////////////////////////////////////////
+//3. Modificación a contenedor y jumbotron
+////////////////////////////////////////////
+.container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    padding: 3rem 3rem;
+    background-color: #d5dee6;
+}
+.jumbotron {
+    padding: 4rem 3em;
+    margin-bottom: 1rem;
+    background-color: #d5dee6;
+  }
+
+////////////////////////////////////////////
+//5. Boton
+////////////////////////////////////////////
+.btn-lg, .btn-group-lg > .btn {
+    border-radius: 0.9rem;
+}
+////////////////////////////////////////////
+//4. Modificación color grays  Bootstrap
+////////////////////////////////////////////
+.text-muted {
+    color: #1dad30 !important;
+}
+.text-black-50 {
+    
+    color: #e45c7e !important;
+}
+.text-white-50 {
+    
+    color: rgb(149 95 32) !important;
+}
+.text-white {
+   
+    color: rgb(210 55 26) !important;
+}
+.text-body {
+    
+    color: rgb(140 0 75)  !important;
+}
+
+
+
+
