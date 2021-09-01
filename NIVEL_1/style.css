@@ -49,17 +49,11 @@ header{
 .row{
     margin: 0;
 }
-.carousel-control-next{
-    width: 1.5vw;
-    opacity: 0.1;
-    color:#4C81E5;
-   
-}
-.carousel-control-prev {
-    width: 1.5vw;
-    opacity: 0.1;
-    color:#4C81E5;
-}
+.carousel-indicators button {
+    width: 12px!important;
+    height: 12px!important;
+    border-radius: 50%;
+  }
 .carousel-caption{
     bottom: 1vw;
 }

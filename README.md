@@ -1,4 +1,4 @@
-# SPRINT_2
+# SPRINT_2 📌
 ## Sprint 2 Maquetación con Bootstrap 
 
 Objetivos 🔩: 
@@ -17,7 +17,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 ## Dependencias 🔧
 
-Para Nivel 2 y Nivel 1, es necesario instalar Node:
+Para Nivel 2, es necesario instalar Node:
 
 * npm install
 
@@ -33,7 +33,7 @@ Tecnologías:
 - Popperjs
 
 
-## Autores 📌 ✒️
+## Autores  ✒️
 
 * **Cecilia Carbajal Belmont** - *Sprint2_IT Academy_React_FrontEnd* - [belcar-ceci](https://github.com/belcar-ceci)
 
